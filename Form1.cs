@@ -9,6 +9,7 @@ namespace demo_calculadora
             button1.Click += new EventHandler(teclat_Click);
             button2.Click += new EventHandler(teclat_Click);
             button3.Click += new EventHandler(teclat_Click);
+            //
 
 
 
