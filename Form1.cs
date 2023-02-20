@@ -14,9 +14,9 @@ namespace demo_calculadora
             button3.Click += new EventHandler(teclat_Click);
 
             // carregar items al listbox
-            comboBox1.Items.Add("BITCOIN");
+            comboBox1.Items.Add("Euro");
             comboBox1.Items.Add("YEN");
-            comboBox1.Items.Add("$aus");
+            comboBox1.Items.Add("$AUS");
 
             //
             //accedir a constants d'una altra classe
