@@ -49,7 +49,7 @@
             // 
             // txtAmount
             // 
-            txtAmount.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            txtAmount.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             txtAmount.Location = new Point(27, 60);
             txtAmount.Margin = new Padding(4);
             txtAmount.Name = "txtAmount";
@@ -59,7 +59,7 @@
             // 
             // button2
             // 
-            button2.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button2.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button2.Location = new Point(127, 296);
             button2.Margin = new Padding(4);
             button2.Name = "button2";
@@ -70,7 +70,7 @@
             // 
             // button3
             // 
-            button3.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button3.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button3.Location = new Point(228, 296);
             button3.Margin = new Padding(4);
             button3.Name = "button3";
@@ -81,7 +81,7 @@
             // 
             // button1
             // 
-            button1.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button1.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Location = new Point(13, 296);
             button1.Margin = new Padding(4);
             button1.Name = "button1";
@@ -93,7 +93,7 @@
             // 
             // button4
             // 
-            button4.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button4.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button4.Location = new Point(13, 199);
             button4.Margin = new Padding(4);
             button4.Name = "button4";
@@ -105,7 +105,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(380, 204);
+            button5.Location = new Point(380, 224);
             button5.Margin = new Padding(4);
             button5.Name = "button5";
             button5.Size = new Size(96, 32);
@@ -127,7 +127,7 @@
             // 
             // button6
             // 
-            button6.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button6.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button6.Location = new Point(127, 199);
             button6.Margin = new Padding(4);
             button6.Name = "button6";
@@ -139,7 +139,7 @@
             // 
             // button7
             // 
-            button7.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button7.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button7.Location = new Point(228, 199);
             button7.Margin = new Padding(4);
             button7.Name = "button7";
@@ -150,7 +150,7 @@
             // 
             // button8
             // 
-            button8.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button8.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button8.Location = new Point(13, 113);
             button8.Margin = new Padding(4);
             button8.Name = "button8";
@@ -161,7 +161,7 @@
             // 
             // button9
             // 
-            button9.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button9.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button9.Location = new Point(127, 113);
             button9.Margin = new Padding(4);
             button9.Name = "button9";
@@ -172,7 +172,7 @@
             // 
             // button10
             // 
-            button10.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button10.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button10.Location = new Point(228, 113);
             button10.Margin = new Padding(4);
             button10.Name = "button10";
@@ -183,7 +183,7 @@
             // 
             // button11
             // 
-            button11.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button11.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button11.Location = new Point(13, 382);
             button11.Margin = new Padding(4);
             button11.Name = "button11";
@@ -194,7 +194,7 @@
             // 
             // button12
             // 
-            button12.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            button12.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             button12.Location = new Point(228, 382);
             button12.Margin = new Padding(4);
             button12.Name = "button12";
@@ -224,7 +224,7 @@
             // 
             // textBox1
             // 
-            textBox1.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
+            textBox1.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             textBox1.Location = new Point(355, 60);
             textBox1.Margin = new Padding(4);
             textBox1.Name = "textBox1";
