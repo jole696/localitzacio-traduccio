@@ -1,3 +1,5 @@
+using static System.Net.Mime.MediaTypeNames;
+
 namespace demo_calculadora
 {
     public partial class Form1 : Form
@@ -19,11 +21,16 @@ namespace demo_calculadora
             button10.Click += new EventHandler(teclat_Click);
             button11.Click += new EventHandler(teclat_Click);
 
-            
+
             button12.Click += new EventHandler(erease);
 
 
             button5.Click += new EventHandler(convertir);
+            //Tooltip usos
+            toolTip1.SetToolTip(button12, "Este boton sirve para borrar todo");
+            toolTip1.SetToolTip(txtAmount, "Los datos antes de cinvertirse");
+            toolTip1.SetToolTip(textBox1, "Los datos post-conversion");
+
 
 
 
@@ -58,7 +65,8 @@ namespace demo_calculadora
             if (comboBox1.SelectedIndex < 0 || comboBox2.SelectedIndex < 0 || string.IsNullOrEmpty(text))
             {
                 MessageBox.Show("Necesitas seleccionar las 2 unidades e introducir numeros");
-            } else
+            }
+            else
             {
                 double numero = double.Parse(text);
                 string selectedItem1 = comboBox1.Items[comboBox1.SelectedIndex].ToString();
@@ -106,7 +114,8 @@ namespace demo_calculadora
                 if (selectedItem1 == selectedItem2)
                 {
                     MessageBox.Show("No puedes tranformar el mismo tipo de moneda");
-                } else
+                }
+                else
                 {
                     textBox1.Text = numero.ToString();
                 }
@@ -173,7 +182,7 @@ namespace demo_calculadora
 
         private void button13_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void txtAmount_TextChanged(object sender, EventArgs e)
@@ -187,6 +196,11 @@ namespace demo_calculadora
         }
 
         private void button12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
 
         }
