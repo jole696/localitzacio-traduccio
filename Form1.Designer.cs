@@ -204,7 +204,7 @@
             button12.Name = "button12";
             button12.Size = new Size(93, 78);
             button12.TabIndex = 14;
-            button12.Text = "erease";
+            button12.Text = "borrar";
             button12.UseVisualStyleBackColor = true;
             button12.Click += button12_Click;
             // 

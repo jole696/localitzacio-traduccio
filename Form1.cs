@@ -30,6 +30,10 @@ namespace demo_calculadora
             toolTip1.SetToolTip(button12, "Este boton sirve para borrar todo");
             toolTip1.SetToolTip(txtAmount, "Los datos antes de cinvertirse");
             toolTip1.SetToolTip(textBox1, "Los datos post-conversion");
+            
+            toolTip1.SetToolTip(comboBox2, "Tipo de moneda base");
+            toolTip1.SetToolTip(comboBox1, "Tipo de moneda a transformar");
+            toolTip1.SetToolTip(button5, "Boton para realizar la conversion");
 
 
 
